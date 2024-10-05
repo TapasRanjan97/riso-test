@@ -1,0 +1,105 @@
+.landing-container {
+  display: block;
+}
+.comming-soon-container {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  left: 200px;
+}
+.const-img {
+  position: absolute;
+  top: 570px;
+  left: 900px;
+}
+.const-img img {
+  height: 400px;
+  width: 400px;
+}
+.coming-soon-text-conatiner {
+  position: absolute;
+  left: 40px;
+  top: 700px;
+}
+.coming-soon-text {
+  position: absolute;
+  width: 728px;
+  height: 207px;
+  font-family: Kumbh Sans;
+  font-size: 56px;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: 0em;
+  font-variation-settings: "opsz" auto;
+  color: #070707;
+  opacity: 1;
+  text-align: center;
+}
+.coming-soon-desc {
+  position: absolute;
+  width: 600px;
+  height: 207px;
+  padding-top: 80px;
+  padding-left: 50px;
+  font-family: Kumbh Sans;
+  font-size: 26px;
+  line-height: normal;
+  letter-spacing: 0em;
+  font-variation-settings: "opsz" auto;
+  color: #070707;
+  opacity: 1;
+  text-align: justify;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .comming-soon-container {
+    position: relative;
+    display: block;
+    min-width: 450px;
+    max-width: 100%;
+    left: 2px;
+  }
+  .const-img {
+    position: relative;
+    top: 50px;
+    left: 70px;
+  }
+  .const-img img {
+    height: 300px;
+    width: 300px;
+  }
+  .coming-soon-text-conatiner {
+    position: relative;
+    left: 2px;
+    top: 70px;
+  }
+  .coming-soon-text {
+    position: absolute;
+    min-width: 450px;
+    max-width: 100%;
+    height: 207px;
+    font-family: Kumbh Sans;
+    font-size: 46px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-variation-settings: "opsz" auto;
+    color: #070707;
+    opacity: 1;
+    text-align: center;
+  }
+  .coming-soon-desc {
+    position: absolute;
+    width: 350px;
+    height: 207px;
+    padding-top: 120px;
+    padding-left: 50px;
+    font-family: Kumbh Sans;
+    font-size: 26px;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-variation-settings: "opsz" auto;
+    color: #070707;
+    opacity: 1;
+    text-align: center;
+  }
+}

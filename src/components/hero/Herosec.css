@@ -1,0 +1,148 @@
+.head-sec {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 750px;
+  background: linear-gradient(
+      90deg,
+      rgba(31, 160, 148, 0.6) 0%,
+      rgba(0, 126, 185, 0.6) 100%
+    ),
+    url("../../assets/images/head-backgroud.png");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  opacity: 1;
+  clip-path: polygon(50% 0%, 100% 0, 100% 63%, 22% 90%, 0 73%, 0 0);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.hero-sec-content {
+  display: flex;
+  width: 80%;
+}
+.hero-img {
+  position: absolute;
+  left: 240px;
+}
+.hero-img img {
+  width: 376px;
+  height: 490px;
+}
+.hero-text-container {
+  position: absolute;
+  left: 681px;
+  top: 168px;
+}
+.hero-text {
+  width: 728px;
+  height: 207px;
+  font-family: Kumbh Sans;
+  font-size: 56px;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: 0em;
+  font-variation-settings: "opsz" auto;
+  color: #ffffff;
+  opacity: 1;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.talk-expert-btn {
+  position: absolute;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  height: 50px;
+  width: 25.08%;
+  text-align: center;
+  justify-content: center;
+  font-family: Kumbh Sans;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 16px;
+  top: 250px;
+  background-color: #ff9839;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.hero-nav-dots {
+  position: absolute;
+  left: 370px;
+  top: 550.95px;
+}
+.hero-nav-dots img {
+  width: 98.19%;
+  height: 32.05%;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .head-sec {
+    position: relative;
+    left: 0;
+    top: 0;
+    min-width: 450px;
+    max-width: 100%;
+    height: 450px;
+    background: linear-gradient(
+        90deg,
+        rgba(31, 160, 148, 0.6) 0%,
+        rgba(0, 126, 185, 0.6) 100%
+      ),
+      url("../../assets/images/head-backgroud.png");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    opacity: 1;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+  }
+  .hero-sec-content {
+    display: flex;
+    width: 80%;
+  }
+  .hero-img {
+    position: absolute;
+    left: 35px;
+    top: 110px;
+  }
+  .hero-img img {
+    width: 190px;
+    height: 290px;
+  }
+  .hero-text-container {
+    position: relative;
+    left: 230px;
+    top: 90px;
+  }
+  .hero-text {
+    width: 208px;
+    height: 207px;
+    font-family: Kumbh Sans;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-variation-settings: "opsz" auto;
+    color: #ffffff;
+    opacity: 1;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  .talk-expert-btn {
+    position: relative;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    width: 90.08%;
+    text-align: center;
+    justify-content: center;
+    right: 100px;
+    font-family: Kumbh Sans;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 15px;
+    top: 20px;
+    background-color: #ff9839;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+  }
+}
